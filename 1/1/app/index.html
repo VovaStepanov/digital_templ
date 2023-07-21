@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.css">
+</head>
+
+<body>
+  <div id="container">
+    <div class="divider" aria-hidden="true"></div>
+    <p class="loading-text" aria-label="Loading">
+      <span class="letter" aria-hidden="true">L</span>
+      <span class="letter" aria-hidden="true">o</span>
+      <span class="letter" aria-hidden="true">a</span>
+      <span class="letter" aria-hidden="true">d</span>
+      <span class="letter" aria-hidden="true">i</span>
+      <span class="letter" aria-hidden="true">n</span>
+      <span class="letter" aria-hidden="true">g</span>
+    </p>
+  </div>
+  <div class="wrapper unloaded">
+    <div class="adaptive__navigation">
+      <div class="burger">
+        <img src="./img/burger.svg" alt="burger">
+        <img src="./img/close.svg" alt="close"></div>
+      <div class="adaptive__navigation__inner">
+        <nav class="menu">
+          <li style="--i:1;" class="menu__item" data-menuanchor="secondPage"><a href="#secondPage" data-content="Home">Home</a><a href="#secondPage" class="stroke" data-content="Home">Home</a></li>
+          <li style="--i:2;" class="menu__item" data-menuanchor="sixthPage"><a href="#sixthPage" data-content="About">About</a><a href="#sixthPage" class="stroke" data-content="Home">About</a></li>
+          <li style="--i:3;" class="menu__item" data-menuanchor="fifthPage"><a href="#fifthPage" data-content="pricing">pricing</a><a href="#fifthPage" class="stroke" data-content="Home">pricing</a></li>
+          <li style="--i:4;" class="menu__item" data-menuanchor="seventhPage"><a href="#seventhPage" data-content="Blog">Blog</a><a href="#seventhPage" class="stroke" data-content="Home">Blog</a></li>
+          <li style="--i:5;" class="menu__item" data-menuanchor="thirdPage"><a href="#thirdPage" data-content="Faq">Faq</a><a href="#thirdPage" class="stroke" data-content="Home">Faq</a></li>
+          <li style="--i:6;" class="menu__item" data-menuanchor="lastPage"><a href="#lastPage" data-content="contact">contact</a><a href="#lastPage" class="stroke" data-content="Home">contact</a></li>
+        </nav>
+        <button class="purchase">Purchase template</button>
+      </div>
+    </div>
+    <main class="" id="fullpage">
+      <header class="section active">
+        <div class="container">
+          <div class="header__inner">
+            <div class="header__top">
+              <img src="./img/logo.svg" style="max-width:93px" alt="logo" class="logo">
+              <nav class="menu">
+                <li class="menu__item" data-menuanchor="secondPage"><a href="#secondPage">Home</a></li>
+                <li class="menu__item" data-menuanchor="sixthPage"><a href="#sixthPage">About</a></li>
+                <li class="menu__item" data-menuanchor="fifthPage"><a href="#fifthPage">pricing</a></li>
+                <li class="menu__item" data-menuanchor="seventhPage"><a href="#seventhPage">Blog</a></li>
+                <li class="menu__item" data-menuanchor="thirdPage"><a href="#thirdPage">Faq</a></li>
+                <li class="menu__item" data-menuanchor="lastPage"><a href="#lastPage">contact</a></li>
+              </nav>
+              <button class="purchase">Purchase template</button>
+            </div>
+            <div class="header__bottom">
+              <img src="./img/shape.svg" alt="shape" class="shape">
+              <div class="container">
+                <div class="header__img">
+                  <img data-aos="fade-right" data-aos-delay="300" src="./img/header_bg.png" alt="bg"
+                  class="header__bottom-bg">
+                </div>
+                <div class="header__bottom__content">
+                  <h1 class="animation-title">Digital Marketing.</h1>
+                  <h1 class="animation-title">Creative Design.</h1>
+                  <p>"Your work is going to fill a large part of your life, and the only way to be truly satisfied is to
+                    do
+                    what you believe is great work. And the only way to do great work is to love what you do."</p>
+                  <div class="card">
+                    <img class="avatar" src="./img/avatar.png" alt="avatar"></img>
+                    <div class="feedback">
+                      <span class="name">Samantha Norton</span>
+                      <div class="stars">
+                        <img src="./img/star.svg" alt="star" class="star">
+                        <img src="./img/star.svg" alt="star" class="star">
+                        <img src="./img/star.svg" alt="star" class="star">
+                        <img src="./img/star.svg" alt="star" class="star">
+                        <img src="./img/star.svg" alt="star" class="star">
+                      </div>
+                    </div>
+                  </div>
+                  <button class="get-started">Get started now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="solution section">
+        <div class="container">
+          <img src="./img/shape-1.svg" alt="shape" class="shape-1">
+          <img src="./img/shape-2.svg" alt="shape" class="shape-2">
+          <img src="./img/shape-3.svg" alt="shape" class="shape-3">
+          <span class="technology">
+            Event Technology
+          </span>
+          <h1 class="animation-title solution__title">The solution that</h1>
+          <h1 class="animation-title solution__title last">your business can rely on</h1>
+          <p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what
+            you believe is great work. And the only way to do great work is to love what you do.</p>
+          <div class="solution__img" data-aos="fade-up">
+            <img src="./img/solution-bg.png" alt="solution">
+          </div>
+          <p class="more">more about us</p>
+        </div>
+      </section>
+      <section class="experience section">
+        <img src="./img/shape-4.svg" alt="shape" class="shape-4">
+        <div class="container">
+          <div class="experience__inner">
+            <div class="experience__content" data-aos="fade-right">
+              <h1 class="animation-title experience__title">Experience design and</h1>
+              <h1 class="animation-title experience__title">intelligent marketing for</h1>
+              <h1 class="animation-title experience__title last">growing brands</h1>
+              <p>The first rule of any technology used in a business is that automation applied to an efficient
+                operation will magnify the efficiency.</p>
+              <div class="experience__cards">
+                <div class="experience__card">
+                  <img src="./img/experience-icon-1.svg" alt="icon" class="icon">
+                  <p class="title">Customer Support</p>
+                  <p class="text">Make every detail perfect & limit the number of details.</p>
+                </div>
+                <div class="experience__card">
+                  <img src="./img/experience-icon-2.svg" alt="icon" class="icon">
+                  <p class="title">Email marketing</p>
+                  <p class="text">Make every detail perfect & limit the number of details.</p>
+                </div>
+              </div>
+              <button class="experience__btn">Read more</button>
+            </div>
+            <div class="experience__form" data-aos="fade-down">
+              <img src="./img/form-bg.png" alt="form-bg" class="form__top">
+              <form action="#">
+                <h2 class="form__title">Get in touch of the world</h2>
+                <p class="form__text">Your work is going to fill a large part of your life, and the only way to be truly
+                  satisfied.</p>
+                <div class="form__inputs">
+                  <div class="line">
+                    <div class="field">
+                      <input required name="name" id="name" type="text" class="name">
+                      <label for="name" class="placeholder" data-text="Enter your name"></label>
+                    </div>
+                    <div class="field">
+                      <input required name="email" id="email" type="text" class="email">
+                      <label for="email" class="placeholder" data-text="Enter email"></label>
+                    </div>
+                  </div>
+                  <div class="field">
+                    <input required name="subject" type="text" class="subject" id="subject">
+                    <label for="subject" class="placeholder" data-text="Enter your subject"></label>
+                  </div>
+                  <div class="field last">
+                    <textarea required name="enter-subject" id="enter-subject" cols="30" rows="10" class="enter-subject"
+                      id="enter-subject" style="resize: none;"></textarea>
+                    <label for="enter-subject" class="placeholder" data-text="Enter your subject"></label>
+                  </div>
+                </div>
+                <button class="form__btn">SENT MESSAGE</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="trusted section">
+        <div class="trusted-img-top">
+          <img data-aos="fade-down-right" src="./img/trusted-bg.png" alt="trusted-img-top">
+        </div>
+        <div class="container">
+          <div class="trusted__inner">
+            <div class="trusted__img">
+              <img data-aos="fade-down-right" src="./img/trusted-bg.png" alt="trusted-img">
+            </div>
+            <div class="trusted__content">
+              <h1 class="animation-title">See why we are trusted</h1>
+              <h1 class="animation-title last">the world over</h1>
+              <p>The first rule of any technology used in a business is that automation applied to an efficient
+                operation will magnify the efficiency.</p>
+              <div class="accordion" data-aos="fade-up-left">
+                <div class="accordion__item" style="--i:0">
+                  <div class="visible-content">
+                    <div class="item__title">Do you provide customer support?</div>
+                    <img src="./img/plus.svg" alt="">
+                  </div>
+                  <div class="item__content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem itaque reiciendis facere molestiae ut
+                    ipsa doloremque, soluta tempore! Quaerat doloribus ullam debitis doloremque quia quos exercitationem
+                    perferendis laborum libero consequuntur.
+                  </div>
+                </div>
+                <div class="accordion__item" style="--i:1">
+                  <div class="visible-content">        
+                    <img src="./img/plus.svg" alt="">
+                    <div class="item__title">How much traffic can the hosting handle?</div>
+                  </div>
+                  <div class="item__content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem itaque reiciendis facere molestiae ut
+                    ipsa doloremque, soluta tempore! Quaerat doloribus ullam debitis doloremque quia quos exercitationem
+                    perferendis laborum libero consequuntur.
+                  </div>
+                </div>
+                <div class="accordion__item" style="--i:2">
+                  <div class="visible-content">
+                    <div class="item__title">Do you have any questions for us?</div>
+                    <img src="./img/plus.svg" alt="">
+                  </div>
+                  <div class="item__content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem itaque reiciendis facere molestiae ut
+                    ipsa doloremque, soluta tempore! Quaerat doloribus ullam debitis doloremque quia quos exercitationem
+                    perferendis laborum libero consequuntur.
+                  </div>
+                </div>
+                <div class="accordion__item" style="--i:3">
+                  <div class="visible-content">
+                    <div class="item__title">What is your return policy?</div>
+                    <img src="./img/plus.svg" alt="">
+                  </div>
+                  <div class="item__content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem itaque reiciendis facere molestiae ut
+                    ipsa doloremque, soluta tempore! Quaerat doloribus ullam debitis doloremque quia quos exercitationem
+                    perferendis laborum libero consequuntur.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="marketing section">
+        <div class="container">
+          <div class="marketing__inner">
+            <div class="marketing__content" data-aos="zoom-in-up">
+              <h1 class="animation-title marketing__title">Marketing and digital</h1>
+              <h1 class="animation-title marketing__title">products that grow</h1>
+              <h1 class="animation-title marketing__title last">businesses!</h1>
+              <p>The first rule of any technology used in a business is that automation applied to an efficient
+                operation will magnify the efficiency.</p>
+              <div class="statistics">
+                <div class="statistics__item">
+                  <div class="top">
+                    <div class="title">Research</div>
+                    <div class="number">85%</div>
+                  </div>
+                  <div class="line">
+                    <div class="progress progress-1" data-progress="85"></div>
+                  </div>
+                </div>
+                <div class="statistics__item">
+                  <div class="top">
+                    <div class="title">Education</div>
+                    <div class="number">65%</div>
+                  </div>
+                  <div class="line">
+                    <div class="progress progress-2" data-progress=65%></div>
+                  </div>
+                </div>
+                <div class="statistics__item">
+                  <div class="top">
+                    <div class="title">Strategy Development</div>
+                    <div class="number">72%</div>
+                  </div>
+                  <div class="line">
+                    <div class="progress progress-3" data-progress="72"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="marketing__card" data-aos="zoom-in-down">
+              <img src="./img/marketing-card.png" alt="marketing-card">
+              <h1>$45.00</h1>
+              <p>Per month</p>
+              <ul>
+                <li>Meet and Greet with Speakers</li>
+                <li>Video Facilities</li>
+                <li>Speaker Facilities</li>
+                <li>Questions & Answers</li>
+                <li>Questions & Answers</li>
+                <li>Dedicated account manager</li>
+              </ul>
+              <button class="marketing__btn">Get Ticket</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="team section">
+        <div class="team__inner">
+          <div class="team__slider" data-aos="fade-down">
+            <div class="team__slider__inner">
+              <div class="team__card">
+                <div class="team__card__inner">
+                  <div class="card__text">
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                    tristique. "
+                  </div>
+                  <img src="./img/team-1.png" alt="photo" class="photo">
+                  <div class="card__name">Martin Eduard</div>
+                  <div class="card__job">CEO of Marketing</div>
+                  <div class="card__rate">
+                    <img src="./img/star.svg" alt="star" class="star">
+                    <img src="./img/star.svg" alt="star" class="star">
+                    <img src="./img/star.svg" alt="star" class="star">
+                    <img src="./img/star.svg" alt="star" class="star">
+                    <img src="./img/star.svg" alt="star" class="star">
+                  </div>
+                </div>
+              </div>
+              <div class="team__card">
+                <div class="team__card__inner">
+                  <div class="card__text">
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                    tristique. "
+                  </div>
+                  <img src="./img/team-1.png" alt="photo" class="photo">
+                  <div class="card__name">Martin Eduard</div>
+                  <div class="card__job">CEO of Marketing</div>
+                  <div class="card__rate">
+                    <img src="./img/star.svg" alt="star" class="star">
+                    <img src="./img/star.svg" alt="star" class="star">
+                    <img src="./img/star.svg" alt="star" class="star">
+                    <img src="./img/star.svg" alt="star" class="star">
+                    <img src="./img/star.svg" alt="star" class="star">
+                  </div>
+                </div>
+              </div>
+              <div class="team__card">
+                <div class="team__card__inner">
+                  <div class="card__text">
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                    tristique. "
+                  </div>
+                  <img src="./img/team-1.png" alt="photo" class="photo">
+                  <div class="card__name">Martin Eduard</div>
+                  <div class="card__job">CEO of Marketing</div>
+                  <div class="card__rate">
+                    <img src="./img/star.svg" alt="star" class="star">
+                    <img src="./img/star.svg" alt="star" class="star">
+                    <img src="./img/star.svg" alt="star" class="star">
+                    <img src="./img/star.svg" alt="star" class="star">
+                    <img src="./img/star.svg" alt="star" class="star">
+                  </div>
+                </div>
+              </div>
+              <div class="team__card">
+                <div class="team__card__inner">
+                  <div class="card__text">
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                    tristique. "
+                  </div>
+                  <img src="./img/team-1.png" alt="photo" class="photo">
+                  <div class="card__name">Martin Eduard</div>
+                  <div class="card__job">CEO of Marketing</div>
+                  <div class="card__rate">
+                    <img src="./img/star.svg" alt="star" class="star">
+                    <img src="./img/star.svg" alt="star" class="star">
+                    <img src="./img/star.svg" alt="star" class="star">
+                    <img src="./img/star.svg" alt="star" class="star">
+                    <img src="./img/star.svg" alt="star" class="star">
+                  </div>
+                </div>
+              </div>
+              <div class="team__card">
+                <div class="team__card__inner">
+                  <div class="card__text">
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                    tristique. "
+                  </div>
+                  <img src="./img/team-1.png" alt="photo" class="photo">
+                  <div class="card__name">Martin Eduard</div>
+                  <div class="card__job">CEO of Marketing</div>
+                  <div class="card__rate">
+                    <img src="./img/star.svg" alt="star" class="star">
+                    <img src="./img/star.svg" alt="star" class="star">
+                    <img src="./img/star.svg" alt="star" class="star">
+                    <img src="./img/star.svg" alt="star" class="star">
+                    <img src="./img/star.svg" alt="star" class="star">
+                  </div>
+                </div>
+              </div>
+              <div class="team__card">
+                <div class="team__card__inner">
+                  <div class="card__text">
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                    tristique. "
+                  </div>
+                  <img src="./img/team-1.png" alt="photo" class="photo">
+                  <div class="card__name">Martin Eduard</div>
+                  <div class="card__job">CEO of Marketing</div>
+                  <div class="card__rate">
+                    <img src="./img/star.svg" alt="star" class="star">
+                    <img src="./img/star.svg" alt="star" class="star">
+                    <img src="./img/star.svg" alt="star" class="star">
+                    <img src="./img/star.svg" alt="star" class="star">
+                    <img src="./img/star.svg" alt="star" class="star">
+                  </div>
+                </div>
+              </div>
+              <div class="team__card">
+                <div class="team__card__inner">
+                  <div class="card__text">
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                    tristique. "
+                  </div>
+                  <img src="./img/team-1.png" alt="photo" class="photo">
+                  <div class="card__name">Martin Eduard</div>
+                  <div class="card__job">CEO of Marketing</div>
+                  <div class="card__rate">
+                    <img src="./img/star.svg" alt="star" class="star">
+                    <img src="./img/star.svg" alt="star" class="star">
+                    <img src="./img/star.svg" alt="star" class="star">
+                    <img src="./img/star.svg" alt="star" class="star">
+                    <img src="./img/star.svg" alt="star" class="star">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="slider__btn next"><img src="./img/arrow.svg" alt="arrow" class="arrow"></button>
+            <button class="slider__btn prev"><img style="transform: rotate(180deg);" src="./img/arrow.svg" alt="arrow"
+                class="arrow"></button>
+            <!-- <div class="slider__dots">
+              <div class="dot active"></div>
+              <div class="dot"></div>
+            </div> -->
+          </div>
+          <div class="team__content">
+            <img src="./img/shape-5.svg" alt="shape" class="shape-5">
+            <span>an unique marketing template</span>
+            <h1>"Any strategy that gets a message to rise above the clutter is terrific from the advertiser's
+              perspective. Even if it's not much of a secret, it's still a pretty good marketing idea."</h1>
+            <button>Meet the team</button>
+          </div>
+        </div>
+      </section>
+      <section class="blog section">
+        <div class="companies">
+          <div class="container">
+            <div class="companies__inner">
+              <div style="max-width:144px;"><img style="width:100%;object-fit: cover;" src="./img/sordic.svg"
+                  alt="company"></div>
+              <div style="max-width:144px;"><img style="width:100%;object-fit: cover;" src="./img/oprah.svg"
+                  alt="company"></div>
+              <div style="max-width:144px;"><img style="width:100%;object-fit: cover;" src="./img/mattlab.svg"
+                  alt="company"></div>
+              <div style="max-width:144px;"><img style="width:100%;object-fit: cover;" src="./img/together.svg"
+                  alt="company"></div>
+              <div style="max-width:144px;"><img style="width:100%;object-fit: cover;" src="./img/codeflame.svg"
+                  alt="company"></div>
+              <div style="max-width:144px;"><img style="width:100%;object-fit: cover;" src="./img/modus.svg"
+                  alt="company"></div>
+            </div>
+          </div>
+        </div>
+        <div class="blog__content">
+          <span class="blog__content__smTitle">FROM OUR BLOG</span>
+          <h1 class="animation-title blog">Recent News & Updates</h1>
+          <div class="blog__cards">
+            <div class="column">
+              <div class="card" data-aos="zoom-in-right">
+                <img src="./img/blog-img-1.png" alt="image">
+                <div class="card__content">
+                  <span>DESIGN</span>
+                  <h1>Best Blogs To Follow About Web Design</h1>
+                  <p>Et magni et ea unde tempore. Corrupti quia adipisci qui dicta sint.</p>
+                </div>
+              </div>
+              <div class="card" data-aos="zoom-in-right" data-aos-delay='150'>
+                <img src="./img/blog-img-2.png" alt="image">
+                <div class="card__content">
+                  <span>TUTORIAL</span>
+                  <h1>5 Great Web Design Resources</h1>
+                  <p>Et magni et ea unde tempore. Corrupti quia adipisci qui dicta sint.</p>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card large" data-aos="zoom-in-left">
+                <img src="./img/blog-img-3.png" alt="image">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="section fp-auto-height" style="height:500px !important">
+        <div class="container">
+          <div class="footer__top">
+            <a href="#">
+              <img src="./img/logo-2.svg" alt="logo" class="logo">
+            </a>
+            <ul>
+              <li>Style-guide</li>
+              <li>Licenses</li>
+              <li>Changelog</li>
+              <li>Terms</li>
+              <li>Password</li>
+              <li>404</li>
+            </ul>
+          </div>
+          <div class="footer__bottom">
+            <div>
+              <p>
+                Created with love by <span>Dorian Hoxha</span> | Powered by <span>Webflow</span>
+              </p>
+            </div>
+            <ul class="socials">
+              <li><img src="./img/facebook.svg" alt="social"></li>
+              <li><img src="./img/twitter.svg" alt="social"></li>
+              <li><img src="./img/v.svg" alt="social"></li>
+              <li><img src="./img/pinterest.svg" alt="social"></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </div>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+    integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <!-- <script type="text/javascript" scr="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.extensions.min.js"></script> -->
+  <script type="text/javascript"
+    src=https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.js></script>
+  <script>
+    $(document).ready(function () {
+      setTimeout(() => {
+        $('#fullpage').fullpage({
+          navigation: true,
+          anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage', 'seventhPage', 'lastPage'],
+          afterLoad: function () {
+            $('.fp-table.active .aos-init').addClass('aos-animate');
+            let elems = [...$('.fp-table.active .aos-init .progress')];
+            if (elems[0] && !$(".solution").hasClass("played")) {
+              elems.map((elem, i) => {
+                gsap.from(elem, { width: 0, duration: 1, delay: 0.5 + 0.2 * i, ease: Bounce.easeOut });
+              });
+              $(".solution").addClass("played");
+            }
+          }
+        })
+      }, 2000);
+
+      // slider  team__slider__inner
+      $('.team__slider__inner').slick({
+        centerMode: true,
+        centerPadding: '60px',
+        slidesToShow: 3,
+        dots: true,
+        prevArrow: $('.prev'),
+        nextArrow: $('.next'),
+        infinite: false,
+        initialSlide: 2,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 3
+            }
+          },
+          {
+            breakpoint: 350,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 1
+            }
+          }
+        ]
+      });
+
+    });
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>

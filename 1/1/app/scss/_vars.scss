@@ -1,0 +1,54 @@
+@mixin Oswald-Font-500 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+@mixin Oswald-Font-400 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+@mixin Oswald-Font-300 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+
+@mixin Title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+@mixin Button {
+    padding: 14px 40px;
+    border-radius: 30px;
+    color: $white;
+    font-size: 14px;
+    @include Oswald-Font-400;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    transition: .3s all;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+@mixin Input {
+    background: #F8F8F8;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 100%;
+    padding: 20px 20px;
+}
+
+/* colors */
+$black: #000;
+$white: #fff;
+$blue: #0057FF;
+$orange: #FFA332;
+/* colors */
